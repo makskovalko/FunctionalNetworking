@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF5E957116CE0BBE58F60A8 /* Pods_FunctionalNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF091508880F457E70C95A1F /* Pods_FunctionalNetworking.framework */; };
 		E5948A1C237D540A0033FE1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A1B237D540A0033FE1C /* AppDelegate.swift */; };
 		E5948A1E237D540A0033FE1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A1D237D540A0033FE1C /* SceneDelegate.swift */; };
 		E5948A20237D540A0033FE1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A1F237D540A0033FE1C /* ViewController.swift */; };
 		E5948A23237D540A0033FE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5948A21237D540A0033FE1C /* Main.storyboard */; };
 		E5948A25237D540C0033FE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5948A24237D540C0033FE1C /* Assets.xcassets */; };
 		E5948A28237D540C0033FE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5948A26237D540C0033FE1C /* LaunchScreen.storyboard */; };
+		E5948A31237D54940033FE1C /* NetworkFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A30237D54940033FE1C /* NetworkFunctions.swift */; };
+		E5948A33237D54BE0033FE1C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A32237D54BE0033FE1C /* Network.swift */; };
+		E5948A36237D54EF0033FE1C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A35237D54EF0033FE1C /* Functions.swift */; };
+		E5948A38237D55240033FE1C /* APIRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A37237D55240033FE1C /* APIRoutable.swift */; };
+		E5948A3A237D556D0033FE1C /* URLSessionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A39237D556D0033FE1C /* URLSessionType.swift */; };
+		E5948A3D237D55C50033FE1C /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A3C237D55C50033FE1C /* Encodable+Extension.swift */; };
+		E5948A3F237D55E80033FE1C /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A3E237D55E80033FE1C /* RestClient.swift */; };
+		E5948A41237D56350033FE1C /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A40237D56350033FE1C /* AuthProvider.swift */; };
+		E5948A43237D56850033FE1C /* AnyCodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A42237D56850033FE1C /* AnyCodable+Extension.swift */; };
+		E5948A45237D57240033FE1C /* ConnectivityServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5948A44237D57240033FE1C /* ConnectivityServiceType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B637CDE121EB64F03896ABD /* Pods-FunctionalNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalNetworking.debug.xcconfig"; path = "Target Support Files/Pods-FunctionalNetworking/Pods-FunctionalNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B71FCCDDFEC5A64853E26D /* Pods-FunctionalNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalNetworking.release.xcconfig"; path = "Target Support Files/Pods-FunctionalNetworking/Pods-FunctionalNetworking.release.xcconfig"; sourceTree = "<group>"; };
 		E5948A18237D540A0033FE1C /* FunctionalNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5948A1B237D540A0033FE1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5948A1D237D540A0033FE1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		E5948A24237D540C0033FE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5948A27237D540C0033FE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5948A29237D540C0033FE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5948A30237D54940033FE1C /* NetworkFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFunctions.swift; sourceTree = "<group>"; };
+		E5948A32237D54BE0033FE1C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E5948A35237D54EF0033FE1C /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		E5948A37237D55240033FE1C /* APIRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRoutable.swift; sourceTree = "<group>"; };
+		E5948A39237D556D0033FE1C /* URLSessionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionType.swift; sourceTree = "<group>"; };
+		E5948A3C237D55C50033FE1C /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		E5948A3E237D55E80033FE1C /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		E5948A40237D56350033FE1C /* AuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		E5948A42237D56850033FE1C /* AnyCodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyCodable+Extension.swift"; sourceTree = "<group>"; };
+		E5948A44237D57240033FE1C /* ConnectivityServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityServiceType.swift; sourceTree = "<group>"; };
+		EF091508880F457E70C95A1F /* Pods_FunctionalNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF5E957116CE0BBE58F60A8 /* Pods_FunctionalNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B359935CB38A062378CB7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF091508880F457E70C95A1F /* Pods_FunctionalNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEA98AB75A9F79C380ABE65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B637CDE121EB64F03896ABD /* Pods-FunctionalNetworking.debug.xcconfig */,
+				B1B71FCCDDFEC5A64853E26D /* Pods-FunctionalNetworking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E5948A0F237D540A0033FE1C = {
 			isa = PBXGroup;
 			children = (
 				E5948A1A237D540A0033FE1C /* FunctionalNetworking */,
 				E5948A19237D540A0033FE1C /* Products */,
+				CEEA98AB75A9F79C380ABE65 /* Pods */,
+				0B359935CB38A062378CB7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +100,9 @@
 		E5948A1A237D540A0033FE1C /* FunctionalNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				E5948A3B237D55B90033FE1C /* Extensions */,
+				E5948A34237D54E60033FE1C /* Common */,
+				E5948A2F237D54150033FE1C /* Networking */,
 				E5948A1B237D540A0033FE1C /* AppDelegate.swift */,
 				E5948A1D237D540A0033FE1C /* SceneDelegate.swift */,
 				E5948A1F237D540A0033FE1C /* ViewController.swift */,
@@ -67,6 +114,45 @@
 			path = FunctionalNetworking;
 			sourceTree = "<group>";
 		};
+		E5948A2F237D54150033FE1C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E5948A46237D575A0033FE1C /* REST */,
+				E5948A30237D54940033FE1C /* NetworkFunctions.swift */,
+				E5948A32237D54BE0033FE1C /* Network.swift */,
+				E5948A39237D556D0033FE1C /* URLSessionType.swift */,
+				E5948A44237D57240033FE1C /* ConnectivityServiceType.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E5948A34237D54E60033FE1C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E5948A35237D54EF0033FE1C /* Functions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5948A3B237D55B90033FE1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5948A3C237D55C50033FE1C /* Encodable+Extension.swift */,
+				E5948A42237D56850033FE1C /* AnyCodable+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5948A46237D575A0033FE1C /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				E5948A3E237D55E80033FE1C /* RestClient.swift */,
+				E5948A40237D56350033FE1C /* AuthProvider.swift */,
+				E5948A37237D55240033FE1C /* APIRoutable.swift */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5948A2C237D540C0033FE1C /* Build configuration list for PBXNativeTarget "FunctionalNetworking" */;
 			buildPhases = (
+				53AC4182F435A91F883D3CF0 /* [CP] Check Pods Manifest.lock */,
 				E5948A14237D540A0033FE1C /* Sources */,
 				E5948A15237D540A0033FE1C /* Frameworks */,
 				E5948A16237D540A0033FE1C /* Resources */,
+				F7B7E71B364BC2D8618BFE28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +221,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53AC4182F435A91F883D3CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunctionalNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B7E71B364BC2D8618BFE28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunctionalNetworking/Pods-FunctionalNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunctionalNetworking/Pods-FunctionalNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunctionalNetworking/Pods-FunctionalNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5948A14237D540A0033FE1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5948A3A237D556D0033FE1C /* URLSessionType.swift in Sources */,
+				E5948A33237D54BE0033FE1C /* Network.swift in Sources */,
+				E5948A31237D54940033FE1C /* NetworkFunctions.swift in Sources */,
 				E5948A20237D540A0033FE1C /* ViewController.swift in Sources */,
 				E5948A1C237D540A0033FE1C /* AppDelegate.swift in Sources */,
+				E5948A3D237D55C50033FE1C /* Encodable+Extension.swift in Sources */,
 				E5948A1E237D540A0033FE1C /* SceneDelegate.swift in Sources */,
+				E5948A43237D56850033FE1C /* AnyCodable+Extension.swift in Sources */,
+				E5948A38237D55240033FE1C /* APIRoutable.swift in Sources */,
+				E5948A3F237D55E80033FE1C /* RestClient.swift in Sources */,
+				E5948A36237D54EF0033FE1C /* Functions.swift in Sources */,
+				E5948A45237D57240033FE1C /* ConnectivityServiceType.swift in Sources */,
+				E5948A41237D56350033FE1C /* AuthProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		E5948A2D237D540C0033FE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B637CDE121EB64F03896ABD /* Pods-FunctionalNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +441,7 @@
 		};
 		E5948A2E237D540C0033FE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B71FCCDDFEC5A64853E26D /* Pods-FunctionalNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
