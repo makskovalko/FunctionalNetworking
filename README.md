@@ -17,7 +17,7 @@ restClient.executeRequest(
             hideSpinner()
         }
     }.disposed(by: disposeBag)
-```swift
+```
 
 # Execute request
 ```swift
