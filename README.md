@@ -1,4 +1,4 @@
-# FunctionalNetworking
+# Functional Networking
 Example how to use functional programming concepts for networking layer in Swift.
 
 # Example
